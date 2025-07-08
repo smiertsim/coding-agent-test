@@ -15,7 +15,15 @@ A TypeScript-based MCP server that provides GitLab integration and context to MC
 - **Commit History**: Browse commits with date and branch filtering
 - **Configurable Access**: Uses GitLab API tokens for secure access
 
-### Setup
+### Quick Start
+
+1. **Setup** (automated):
+   ```bash
+   npm run setup
+   ```
+   This will create your `.env` file and build the server.
+
+2. **Manual Setup**:
 
 1. **Install Dependencies**
    ```bash
